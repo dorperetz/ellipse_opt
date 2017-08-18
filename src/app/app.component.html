@@ -1,0 +1,12 @@
+<ac-map>
+    <ac-layer acFor="let ellipse of ellipse$" [show]="true" [context]="this">
+        <ac-ellipse-desc props="{
+        position: ellipse.position,
+        fill : true,
+        outline : false,
+        semiMajorAxis:50000.0,
+        semiMinorAxis:30000.0}">
+        </ac-ellipse-desc>
+    </ac-layer>
+</ac-map>
+
